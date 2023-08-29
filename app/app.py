@@ -33,7 +33,7 @@ layout = html.Div(
 )
 
 # Load the trained model
-model = joblib.load('app/Car_selling_price.model')  # Upload model's file name
+model = joblib.load('/Car_selling_price.model')  # Upload model's file name
 
 # Create a callback function to predict the car price and display it on the page
 @app.callback(
